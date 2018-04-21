@@ -13,6 +13,7 @@ distToNearestR = distance_to_object(instance_nearest(x+60,y,oRope));
 distToNearestL = distance_to_object(instance_nearest(x-60,y,oRope));
 
 if(keyboard_check(ord("W")) || keyboard_check(vk_up)){
+	idle=false;
 	y-=3;
 	if(keyboard_check(ord("D")) || keyboard_check_pressed(vk_right)){
 		if(distToNearestR <=60){
@@ -29,6 +30,7 @@ if(keyboard_check(ord("W")) || keyboard_check(vk_up)){
 	}
 }else if(keyboard_check(ord("S")) || keyboard_check(vk_down)){
 	y+=3;
+	idle=false;
 	if(keyboard_check(ord("D")) || keyboard_check_pressed(vk_right)){
 		if(distToNearestR <=60){
 			x = instance_nearest(x+60,y,oRope).x;

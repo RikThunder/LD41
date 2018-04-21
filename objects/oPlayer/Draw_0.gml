@@ -3,8 +3,11 @@
 
 //TODO: implement height meter on the top left of the screen
 //HP 
-draw_self();
-
+if(idle){
+	draw_self();
+}else{
+		
+}
 
 draw_text(x+40,y-40,distToNearestR);
 draw_text(x-40,y-40,distToNearestL);
