@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "c176ce45-4bf9-43e7-a33a-d2a060c2e0ed",
+            "Value": {
+                "id": "0076a132-b78f-4440-9557-88bc0cd661fc",
+                "resourcePath": "objects\\oSpaceShipDanmaku\\oSpaceShipDanmaku.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c1b34666-3eff-42b5-82a2-719635361dc6",
             "Value": {
                 "id": "168fc3f3-c390-4167-bcb8-a4d6ab5be7f1",

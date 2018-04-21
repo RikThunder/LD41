@@ -9,6 +9,7 @@ climbing = false;
 sliding = false;
 jumpL = false;
 jumpR = false;
+
 timer = 0;
 
 heightMeter = 0;
@@ -17,3 +18,7 @@ leftCol = x-32;
 rightCol = x+32;
 canJL = false;
 canJR = false;
+
+HP = 5;
+fallTimer = 0;
+hit = false;

@@ -34,6 +34,7 @@ else if(jumpR){
 	draw_self();
 }
 	
+draw_text(x-5,y-60,HP);
 
 //chaneg this to draw at camera x and y not player
 if(canJL){

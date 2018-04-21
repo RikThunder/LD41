@@ -5,7 +5,6 @@ rightCol = x+32;
 //leftCol = x-62;
 //rightCol = x+64;
 
-
 if(!place_meeting(x,y,oRope)){
 	y+=12;	//make it 10
 	heightMeter -=0.32;	
@@ -17,6 +16,13 @@ if(!place_meeting(x,y,oRope)){
 		idle = true;
 		x+=2;
 	}
+}if(hit){
+	
+	fallTimer +=1;
+	y+=12;
+	if(fallTimer >=30){
+		hit = false;	
+	}
 }
 
 if(distance_to_object(instance_nearest(x,y,oRope))<10){
@@ -24,7 +30,7 @@ if(distance_to_object(instance_nearest(x,y,oRope))<10){
 }
 
 
-if((keyboard_check(ord("W")) || keyboard_check(vk_up))){
+if((keyboard_check(ord("W")) || keyboard_check(vk_up))&& !hit){
 	idle = false;
 	sliding = false;
 	if(position_meeting(x,y-12,oRope)){
@@ -34,20 +40,20 @@ if((keyboard_check(ord("W")) || keyboard_check(vk_up))){
 		y-=0;
 		heightMeter+=0;
 	}
-}else if(keyboard_check(ord("S")) || keyboard_check(vk_down)){
+}else if(keyboard_check(ord("S")) || keyboard_check(vk_down)&&!hit){
 	sliding = true;
 	idle = false;
-	y+=3;
+	y+=5;
 	heightMeter -=.08;
 
-}else if(keyboard_check_released(ord("D")) || keyboard_check_released(vk_right)){
+}else if(keyboard_check_released(ord("D")) || keyboard_check_released(vk_right)&&!hit){
 	//if(distToNearestR <=40){
 		//x = instance_nearest(x+60,y,oRope).x;
 		if(canJR){
 			jumpR = true;
 		}
 	//}
-}else if(keyboard_check_released(ord("A")) || keyboard_check_released(vk_left)){ 
+}else if(keyboard_check_released(ord("A")) || keyboard_check_released(vk_left)&&!hit){ 
 	//if(distToNearestL <=40){
 		//x = instance_nearest(x-60,y,oRope).x;
 		if(canJL){
@@ -96,3 +102,5 @@ if(jumpR){
 		x = rightCol;
 	}
 }	
+
+
