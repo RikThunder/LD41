@@ -1,31 +1,31 @@
 {
-    "id": "374ee073-330c-489b-b87f-67af555a7585",
+    "id": "36af3e74-3dfc-4e09-98ee-8d665edb1867",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oPlayer",
+    "name": "oControl",
     "eventList": [
         {
-            "id": "ef50b590-2db0-4ba3-a7c2-bef90ce8b674",
+            "id": "e5ac2ae0-2564-4fd1-bceb-45f4ae3da4fd",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "374ee073-330c-489b-b87f-67af555a7585"
+            "m_owner": "36af3e74-3dfc-4e09-98ee-8d665edb1867"
         },
         {
-            "id": "8e634ba6-2c36-4ead-be21-318bcaeba0d0",
+            "id": "db0b18ff-9554-4134-9cf0-48324ab912a3",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "374ee073-330c-489b-b87f-67af555a7585"
+            "m_owner": "36af3e74-3dfc-4e09-98ee-8d665edb1867"
         }
     ],
-    "maskSpriteId": "c1b34666-3eff-42b5-82a2-719635361dc6",
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
