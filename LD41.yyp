@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "31c957be-9062-4bbc-982f-09af394c038f",
+            "Value": {
+                "id": "e9f4c8a7-395e-47f9-945a-c6bf1eb0caed",
+                "resourcePath": "sprites\\sRopeShort\\sRopeShort.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "36af3e74-3dfc-4e09-98ee-8d665edb1867",
             "Value": {
                 "id": "c988fdfb-a8f7-42bc-9c44-9aaf617c7315",
