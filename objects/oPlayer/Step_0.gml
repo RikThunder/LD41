@@ -17,11 +17,11 @@ if(!place_meeting(x,y,oRope)){
 		x+=2;
 	}
 }if(hit){
-	
 	fallTimer +=1;
 	y+=12;
 	if(fallTimer >=30){
 		hit = false;	
+		fallTimers=0;
 	}
 }
 
