@@ -9,6 +9,12 @@ if(!place_meeting(x,y,oRope)){
 //show_debug_message(y);
 
 
+if(distance_to_object(instance_nearest(x,y,oRope))<10){
+	x = instance_nearest(x,y,oRope).x;	
+}
+
+
+
 distToNearestR = distance_to_object(instance_nearest(x+20,y,oRope));
 distToNearestL = distance_to_object(instance_nearest(x-20,y,oRope));
 
