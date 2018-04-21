@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+image_speed = 1;
 x = instance_nearest(x,y,oRope).x;
 distToNearestR=0;
 distToNearestL=0;

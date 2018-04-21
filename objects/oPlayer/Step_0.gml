@@ -2,6 +2,9 @@
 // You can write your code in this editor
 leftCol = x-31;
 rightCol = x+32;
+//leftCol = x-62;
+//rightCol = x+64;
+
 
 if(!place_meeting(x,y,oRope)){
 	y+=12;	//make it 10
@@ -58,15 +61,38 @@ if((keyboard_check(ord("W")) || keyboard_check(vk_up))){
 
 
 if (jumpL){
-	//x = instance_nearest(x-15,y,oRope).x;
-	x=leftCol
-	show_debug_message("Jump LEFT");
-	jumpL = false;
+	sprite_index = sPlayerJump;
+	image_xscale = -1;
+	timer+=1;
+	if(timer > 1 && timer < 10){
+		image_index = 0;	
+	}else if(timer > 10 && timer < 20){
+		image_index = 1;	
+	}else if(timer > 20 && timer < 28){
+		image_index = 3;	
+	}
+	if (timer >= 20){
+		jumpL= false;
+		timer = 0;
+		x = leftCol;
+	}
 }
+
 if(jumpR){
-	//x = instance_nearest(x+15,y,oRope).x;
-	x=rightCol;
-	show_debug_message("Jump RIGHT");
-	jumpR = false;
-	//jump right
+	sprite_index = sPlayerJump;
+	//image_index = 0;
+	image_xscale = 1;
+	timer+=1;
+	if(timer > 1 && timer < 10){
+		image_index = 0;	
+	}else if(timer > 10 && timer < 20){
+		image_index = 1;	
+	}else if(timer > 20 && timer < 30){
+		image_index = 3;	
+	}
+	if (timer >= 20){
+		jumpR = false;
+		timer = 0;
+		x = rightCol;
+	}
 }	
