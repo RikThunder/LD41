@@ -21,11 +21,16 @@ if(distance_to_object(instance_nearest(x,y,oRope))<10){
 }
 
 
-if(keyboard_check(ord("W")) || keyboard_check(vk_up)){
+if((keyboard_check(ord("W")) || keyboard_check(vk_up))){
 	idle = false;
 	sliding = false;
-	y-=3;
-	heightMeter +=.08;
+	if(position_meeting(x,y-12,oRope)){
+		y-=3;
+		heightMeter +=.08;
+	}else{
+		y-=0;
+		heightMeter+=0;
+	}
 }else if(keyboard_check(ord("S")) || keyboard_check(vk_down)){
 	sliding = true;
 	idle = false;
