@@ -19,6 +19,12 @@ if(idle){
 	
 	
 
+//chaneg this to draw at camera x and y not player
 draw_text(x+40,y-40,distToNearestR);
 draw_text(x-40,y-40,distToNearestL);
+
+draw_text(x-670,y-380, "Height: ");
+draw_text(x-600,y-380, heightMeter);
+
+
 //score (amount of items collected)

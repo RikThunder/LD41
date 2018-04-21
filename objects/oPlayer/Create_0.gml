@@ -9,3 +9,5 @@ sliding = false;
 jumpL = false;
 jumpR = false;
 timer = 0;
+
+heightMeter = 0;
