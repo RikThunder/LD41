@@ -2,9 +2,18 @@
     "id": "3916b58b-c5e5-45f5-a26b-acd70c99cd5b",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oBirds",
+    "name": "oBird",
     "eventList": [
-        
+        {
+            "id": "7532cf6c-e41e-4907-b2b7-854054b08f2f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "3916b58b-c5e5-45f5-a26b-acd70c99cd5b"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

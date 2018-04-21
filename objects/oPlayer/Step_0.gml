@@ -14,6 +14,7 @@ if(distance_to_object(instance_nearest(x,y,oRope))<10){
 }
 
 
+
 distToNearestR = distance_to_object(instance_nearest(x+20,y,oRope));
 distToNearestL = distance_to_object(instance_nearest(x-20,y,oRope));
 

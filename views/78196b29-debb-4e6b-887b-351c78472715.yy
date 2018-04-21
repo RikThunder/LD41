@@ -6,7 +6,8 @@
     "children": [
         "c1b34666-3eff-42b5-82a2-719635361dc6",
         "2ee522c0-c776-44fd-be31-6b1352f21c79",
-        "f5f81266-4e9c-4e33-9c0d-9bc97fffbc33"
+        "f5f81266-4e9c-4e33-9c0d-9bc97fffbc33",
+        "2460922a-9b91-456e-9b7e-1eeece4a9b85"
     ],
     "filterType": "GMSprite",
     "folderName": "PH",

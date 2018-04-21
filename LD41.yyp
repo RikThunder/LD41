@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "2460922a-9b91-456e-9b7e-1eeece4a9b85",
+            "Value": {
+                "id": "9fc5c3d8-76be-46d6-abaa-8927e77ded33",
+                "resourcePath": "sprites\\sBirdPH\\sBirdPH.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2ee522c0-c776-44fd-be31-6b1352f21c79",
             "Value": {
                 "id": "8f1aed04-73b3-44e2-ae69-13a286caaab9",
@@ -130,7 +138,7 @@
             "Key": "3916b58b-c5e5-45f5-a26b-acd70c99cd5b",
             "Value": {
                 "id": "912ea22b-2163-4c8a-831d-490d06283281",
-                "resourcePath": "objects\\oBirds\\oBirds.yy",
+                "resourcePath": "objects\\oBird\\oBird.yy",
                 "resourceType": "GMObject"
             }
         },
