@@ -5,12 +5,23 @@
 //distToNearestL = distance_to_object(instance_nearest(x-20,y,oRope));
 
 
-if(position_meeting(leftCol,y,oRope)||position_meeting(leftCol-1,y,oRope)||position_meeting(leftCol+1,y,oRope)){
+if(position_meeting(leftCol,y,oRope)||position_meeting(leftCol-1,y,oRope)||
+	position_meeting(leftCol+1,y,oRope)||position_meeting(leftCol-2,y,oRope)||
+	position_meeting(leftCol+2,y,oRope)||position_meeting(leftCol-3,y,oRope)||
+	position_meeting(leftCol+3,y,oRope)||position_meeting(leftCol-4,y,oRope)||
+	position_meeting(leftCol+4,y,oRope)||position_meeting(leftCol-5,y,oRope)||
+	position_meeting(leftCol+5,y,oRope)){
 	canJL = true;
 }else{
 	canJL = false;	
 }
-if(position_meeting(rightCol,y,oRope)||position_meeting(rightCol-1,y,oRope)||position_meeting(rightCol+1,y,oRope)){
+//rightCol
+if(position_meeting(rightCol,y,oRope)||position_meeting(rightCol-1,y,oRope)||
+	position_meeting(rightCol+1,y,oRope)||position_meeting(rightCol-2,y,oRope)||
+	position_meeting(rightCol+2,y,oRope)||position_meeting(rightCol-3,y,oRope)||
+	position_meeting(rightCol+3,y,oRope)||position_meeting(rightCol-4,y,oRope)||
+	position_meeting(rightCol+4,y,oRope)||position_meeting(rightCol-5,y,oRope)||
+	position_meeting(rightCol+5,y,oRope)){
 	canJR = true;	
 }else{
 	canJR = false;	

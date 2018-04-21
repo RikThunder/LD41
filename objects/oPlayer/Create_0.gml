@@ -19,6 +19,5 @@ rightCol = x+32;
 canJL = false;
 canJR = false;
 
-HP = 5;
 fallTimer = 0;
 hit = false;

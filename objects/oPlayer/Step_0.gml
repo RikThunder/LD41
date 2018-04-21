@@ -4,8 +4,11 @@ leftCol = x-31;
 rightCol = x+32;
 //leftCol = x-62;
 //rightCol = x+64;
+if(distance_to_object(instance_nearest(x,y,oRope))<10){
+	x = instance_nearest(x,y,oRope).x;	
+}
 
-if(!place_meeting(x,y,oRope)){
+if(!place_meeting(x,y,oRope)&&distance_to_object(instance_nearest(x,y,oRope)>5)){
 	y+=12;	//make it 10
 	heightMeter -=0.32;	
 	if(keyboard_check(ord("A")) || keyboard_check(vk_left)){
@@ -16,17 +19,15 @@ if(!place_meeting(x,y,oRope)){
 		idle = true;
 		x+=2;
 	}
-}if(hit){
+}
+
+if(hit){
 	fallTimer +=1;
 	y+=12;
 	if(fallTimer >=30){
 		hit = false;	
-		fallTimers=0;
+		fallTimer=0;
 	}
-}
-
-if(distance_to_object(instance_nearest(x,y,oRope))<10){
-	x = instance_nearest(x,y,oRope).x;	
 }
 
 
@@ -40,10 +41,10 @@ if((keyboard_check(ord("W")) || keyboard_check(vk_up))&& !hit){
 		y-=0;
 		heightMeter+=0;
 	}
-}else if(keyboard_check(ord("S")) || keyboard_check(vk_down)&&!hit){
+}else if(keyboard_check(ord("S")) || keyboard_check(vk_down)&& !hit){
 	sliding = true;
 	idle = false;
-	y+=5;
+	y+=6;
 	heightMeter -=.08;
 
 }else if(keyboard_check_released(ord("D")) || keyboard_check_released(vk_right)&&!hit){
