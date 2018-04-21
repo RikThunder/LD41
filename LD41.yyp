@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "3142293a-bafa-4f77-a153-73822b5a14f5",
+            "Value": {
+                "id": "b641fdba-83a1-4a1d-9001-acaff70f6e41",
+                "resourcePath": "sprites\\sRope\\sRope.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "36af3e74-3dfc-4e09-98ee-8d665edb1867",
             "Value": {
                 "id": "c988fdfb-a8f7-42bc-9c44-9aaf617c7315",
