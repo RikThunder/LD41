@@ -3,3 +3,6 @@
 distToNearestR=0;
 distToNearestL=0;
 idle=true;
+sliding = false;
+jumpL = false;
+jumpR = false;
