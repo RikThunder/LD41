@@ -23,5 +23,5 @@ if(distanceToPlr <= 600){
 if(place_meeting(x,y,oPlayer)){
 	oPlayer.HP-=1;
 	oPlayer.hit = true;
-	instance_destroy();
+	//stance_destroy();
 }
