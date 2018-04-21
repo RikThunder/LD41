@@ -7,9 +7,9 @@ draw_self();
 
 if(idle){
 	sprite_index = sPlayerIdle;
-}else if (!idle && slide){
+}else if (!idle && sliding){
 	sprite_index = sPlayerSlide;
-}else if (!idle && !slide){
+}else if (!idle && !sliding){
 	sprite_index = sPlayerClimb;
 }else if (jumpL){
 	//draw jump left animation	

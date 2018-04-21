@@ -4,6 +4,7 @@ x = instance_nearest(x,y,oRope).x;
 distToNearestR=0;
 distToNearestL=0;
 idle=true;
+climbing = false;
 sliding = false;
 jumpL = false;
 jumpR = false;
