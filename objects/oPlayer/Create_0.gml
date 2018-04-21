@@ -11,3 +11,8 @@ jumpR = false;
 timer = 0;
 
 heightMeter = 0;
+
+leftCol = x-32;
+rightCol = x+32;
+canJL = false;
+canJR = false;

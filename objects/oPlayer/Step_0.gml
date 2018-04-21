@@ -1,5 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+leftCol = x-31;
+rightCol = x+32;
+
 if(!place_meeting(x,y,oRope)){
 	y+=12;	//make it 10
 	heightMeter -=0.32;	
@@ -30,15 +33,19 @@ if(keyboard_check(ord("W")) || keyboard_check(vk_up)){
 	heightMeter -=.08;
 
 }else if(keyboard_check_released(ord("D")) || keyboard_check_released(vk_right)){
-	if(distToNearestR <=40){
+	//if(distToNearestR <=40){
 		//x = instance_nearest(x+60,y,oRope).x;
-		jumpR = true;
-	}
+		if(canJR){
+			jumpR = true;
+		}
+	//}
 }else if(keyboard_check_released(ord("A")) || keyboard_check_released(vk_left)){ 
-	if(distToNearestL <=40){
+	//if(distToNearestL <=40){
 		//x = instance_nearest(x-60,y,oRope).x;
-		jumpL = true;
-	}
+		if(canJL){
+			jumpL = true;
+		}	
+	//}
 }else{
 	idle = true;	
 }
@@ -46,12 +53,14 @@ if(keyboard_check(ord("W")) || keyboard_check(vk_up)){
 
 
 if (jumpL){
-	x = instance_nearest(x-20,y,oRope).x;
+	//x = instance_nearest(x-15,y,oRope).x;
+	x=leftCol
 	show_debug_message("Jump LEFT");
 	jumpL = false;
 }
 if(jumpR){
-	x = instance_nearest(x+20,y,oRope).x;
+	//x = instance_nearest(x+15,y,oRope).x;
+	x=rightCol;
 	show_debug_message("Jump RIGHT");
 	jumpR = false;
 	//jump right

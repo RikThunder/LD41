@@ -20,11 +20,22 @@ if(idle){
 	
 
 //chaneg this to draw at camera x and y not player
-draw_text(x+40,y-40,distToNearestR);
-draw_text(x-40,y-40,distToNearestL);
+if(canJL){
+	draw_text(x-60,y-40,"left+");
+}
+if(canJR){
+	draw_text(x+30,y-40,"right+");
+}
 
 draw_text(x-670,y-380, "Height: ");
 draw_text(x-600,y-380, heightMeter);
 
+draw_set_color(c_green);
+draw_circle(x-32,y,2,false);
+draw_set_color(c_red)
+draw_circle(x+32,y,2,false);
+
+
+draw_set_color(c_white);
 
 //score (amount of items collected)
