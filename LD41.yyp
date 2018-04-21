@@ -269,6 +269,14 @@
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
             }
+        },
+        {
+            "Key": "f5f81266-4e9c-4e33-9c0d-9bc97fffbc33",
+            "Value": {
+                "id": "98bddd55-def8-47ae-ac5e-43b149825169",
+                "resourcePath": "sprites\\sControl\\sControl.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "script_order": [
