@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "dcbbae1e-d84a-440d-b148-592cc7e44134",
+            "Value": {
+                "id": "a9cce078-a2c7-4356-800f-ce22274290e4",
+                "resourcePath": "sprites\\sRopeLong\\sRopeLong.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f30720e3-199b-41eb-92d0-69ae03a889b0",
             "Value": {
                 "id": "066393a1-a366-42f7-97cc-7dda188cd992",
