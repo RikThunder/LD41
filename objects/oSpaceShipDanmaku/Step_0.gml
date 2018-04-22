@@ -9,25 +9,66 @@ distOnY = abs(y-oPlayer.y);
 show_debug_message("ydist");
 show_debug_message(distOnY);
 
-if(distance_to_object(oPlayer)<=600){
-	attack = true;			
-}
+time +=1;
 
-
-if(!y<oPlayer.y && distOnY<200){
-	if(distOnX <= 400){
-		y-=5;
-	}else if (distOnX >600 && oPlayer.x<x){//if player is left of the thing
-		x-=2
-		y-=5;
-	}else if(distOnX>600 && oPlayer.x>x){
-		x+=2;
-		y-=5;
+if(distance_to_object(oPlayer)<=600 && time < 2700){	//1800 = 30 seconds
+	attack = true;	
+	if(!y<oPlayer.y && distOnY<400){
+		if(distOnX <= 600 && distOnX > 400){
+			y-=5;
+		}else if(distOnX>=600){
+			if(oPlayer.x < x){
+				x-=1;	
+			}else{
+				x+=1;	
+			}
+		}else if(distOnX<400 && distOnX<600){
+			if(oPlayer.x < x){
+				x-=1;	
+			}else{
+				x+=1;
+			}	
+		}
 	}
 }else{
-	//in the sweet zone
-	attack = true;
+	attack = false;	
 }
+if(time >= 2700){
+	motion_set(90,10);//fly up and out of the map
+}
+
+if(attack){
+	//attack patterns
+	var dir = point_direction(x,y,oPlayer.x,oPlayer.y);
+	var len = point_distance(x,y,oPlayer.x,oPlayer.y);
+
+	
+	if(instance_number(oMegaBanan)<=20 && time <= 1000){
+		if (time mod 45 == 0){
+			with instance_create_depth(oSpaceShipTurret.x-70,oSpaceShipTurret.y+35,0,oMegaBanan){
+				bulDir = point_direction(x,y,oPlayer.x+cos(80),oPlayer.y-100);
+				motion_set(bulDir,6);
+			}
+		}
+	}
+	if(instance_number(oBul2)<=50 && time > 1000 && time < 2000){
+		if (time mod 25 == 0){
+			with instance_create_depth(oSpaceShipTurret.x-70,oSpaceShipTurret.y+35,0,oMegaBanan){
+				bulDir = point_direction(x,y,oPlayer.x+cos(80),oPlayer.y-100);
+				motion_set(bulDir,6);
+			}
+		}
+	}
+	if(instance_number(oBul2)<=100 && time > 2000 && time < 2700){
+		if (time mod 5 == 0){
+			with instance_create_depth(oSpaceShipTurret.x-70,oSpaceShipTurret.y+35,0,oMegaBanan){
+				bulDir = point_direction(x,y,oPlayer.x+cos(80),oPlayer.y-100);
+				motion_set(bulDir,6);
+			}
+		}
+	}
+}
+
 
 /*
 if(oPlayer.heightMeter>0 && time < 2700){	//make height 200 later

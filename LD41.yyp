@@ -655,6 +655,14 @@
             }
         },
         {
+            "Key": "ce139b83-cc22-4839-b543-0edf30785bb2",
+            "Value": {
+                "id": "c0d2c272-aba7-45d8-bebe-0efafea2c13a",
+                "resourcePath": "objects\\oMegaBanan\\oMegaBanan.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ceb5bf2a-598b-4ab6-b44a-3fcfe7a8930f",
             "Value": {
                 "id": "dbc9dcd5-e0df-464f-905d-ccc9dd57d7f6",
@@ -676,6 +684,14 @@
                 "id": "487051d6-2ab2-4527-8c6f-c432a5b56634",
                 "resourcePath": "sounds\\aPlayerHit\\aPlayerHit.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "db10a7c6-3899-45dd-99f3-36b2e0732648",
+            "Value": {
+                "id": "c66ce1e0-7aec-47a8-b361-b2da82e98196",
+                "resourcePath": "sprites\\sBanana1\\sBanana1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

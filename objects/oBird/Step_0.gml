@@ -3,6 +3,9 @@
 distanceToPlr = distance_to_object(oPlayer);
 
 if(distanceToPlr <= 750){
+	
+	//activate patrol mode flying left right instead of just flying 
+		//straight when player in range
 	spd = 2;
 	if(oPlayer.x < x){
 		if(!inMotion){
@@ -22,7 +25,7 @@ if(distanceToPlr <= 750){
 }
 
 
-if(place_meeting(x,y,oPlayer)){
+if(place_meeting(x,y,oPlayer)||position_meeting(x,y,oPlayer)){
 //if(position_meeting(x,y+5,oPlayer)){
 	oPlayer.hit = true;
 	//stance_destroy();
