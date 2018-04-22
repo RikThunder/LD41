@@ -22,6 +22,7 @@ if(!place_meeting(x,y-25,oRope) && distance_to_object(instance_nearest(x,y,oRope
 }
 
 if(hit){
+	audio_play_sound(aPlayerHit,1,false);
 	fallTimer +=1;
 	y+=9;
 	heightMeter -=0.24;	

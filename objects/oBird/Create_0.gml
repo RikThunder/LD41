@@ -3,6 +3,8 @@
 spd = 0;
 inMotion = false;
 
+audio_play_sound(aBirdspawn,1,false);
+
 moveU = true;
 moveD = false;
 moveTime = 0;
