@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "15f6ac5b-1393-442f-a518-a02d3d7e9e27",
+            "Value": {
+                "id": "1fde7931-9adb-49f3-a3a9-7757196c33f8",
+                "resourcePath": "sounds\\aMonkeyCaves\\aMonkeyCaves.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "176211cc-d317-4dc1-9930-8e8fe08621ba",
             "Value": {
                 "id": "305a5620-7136-4df5-8ddd-d749848fa2a3",
