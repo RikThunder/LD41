@@ -33,6 +33,18 @@ if(oPlayer.heightMeter>0 && time < 2700){	//make height 200 later
 }
 
 if(attack){
+	if(instance_number(oBul1)<=20 && time <= 1000){
+		if (time mod 15 == 0){
+			var dir = point_direction(x,y,oPlayer.x,oPlayer.y);
+			var len = point_distance(x,y,oPlayer.x,oPlayer.y);
+			with instance_create_depth(x,y,0,oBul1){
+				motion_set(dir+cos(500 * len),5.5);
+			}
+		}
+	}
+	if(instance_number(oBul2)<=50 && time > 1000 && time < 2000){
+		
+	}
 	//attack patterns go here	
 }
 
