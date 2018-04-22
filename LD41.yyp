@@ -511,6 +511,14 @@
             }
         },
         {
+            "Key": "d4648785-5e3e-4dfb-8a7f-00141d1fb3d1",
+            "Value": {
+                "id": "df77fada-d640-4e59-bcd1-ac798dfa173c",
+                "resourcePath": "sprites\\sBanana\\sBanana.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "dcbbae1e-d84a-440d-b148-592cc7e44134",
             "Value": {
                 "id": "a9cce078-a2c7-4356-800f-ce22274290e4",
