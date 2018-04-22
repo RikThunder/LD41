@@ -1,7 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 if(distance_to_object(oPlayer)<=700){
-	instance_change(oMonkeyInRange,true);
 	time +=1;
 }
 

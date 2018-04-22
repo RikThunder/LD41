@@ -583,6 +583,14 @@
             }
         },
         {
+            "Key": "eaae9d31-1bd4-4ea0-a94b-1f121a2c14cd",
+            "Value": {
+                "id": "3eeb2c1e-18c3-43bd-8df4-a55a51d64af9",
+                "resourcePath": "objects\\oMonkeyInRange\\oMonkeyInRange.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "eef04ff9-c088-40ef-93e6-faa9b5cd8b13",
             "Value": {
                 "id": "6e05e83b-b5ea-4eac-b717-b8b742a72b48",
