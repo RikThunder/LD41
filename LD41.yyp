@@ -399,6 +399,14 @@
             }
         },
         {
+            "Key": "86637a75-6fdd-4d1b-9de6-1a440a69355d",
+            "Value": {
+                "id": "5dfebb1a-caed-4577-9b1a-be63ded97e5f",
+                "resourcePath": "sprites\\sPropeller\\sPropeller.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8722e613-bcaf-4fa2-be52-ecb29dafed1a",
             "Value": {
                 "id": "d65b2b6f-2b85-407d-b7e5-238362f69c89",
