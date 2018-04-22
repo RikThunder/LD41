@@ -33,7 +33,8 @@
         "88facb47-3f4b-426b-9c59-4073a0a26006",
         "c3ae0979-beba-41de-8100-382d07d53aa7",
         "5e3415cd-9580-460a-bd8a-ede1ac737374",
-        "0e1ac0ec-32d1-4ef6-bc16-f3b1e6a35a3d"
+        "0e1ac0ec-32d1-4ef6-bc16-f3b1e6a35a3d",
+        "28f0f699-12e4-44f5-962a-539ececaa296"
     ],
     "filterType": "GMSprite",
     "folderName": "real art",
