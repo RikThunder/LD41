@@ -343,6 +343,14 @@
             }
         },
         {
+            "Key": "81091f99-f806-4903-8d0e-d7321839ca2c",
+            "Value": {
+                "id": "c45b2268-574c-4737-9221-03164b6c2b22",
+                "resourcePath": "sprites\\sBird\\sBird.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "844eae4b-8047-4309-b53e-8264729d8c54",
             "Value": {
                 "id": "93b0e59d-dfe0-4442-b086-8a66d0ca668f",
