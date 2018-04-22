@@ -31,6 +31,30 @@
     },
     "resources": [
         {
+            "Key": "004833b4-968e-482f-889f-27186b823807",
+            "Value": {
+                "id": "ce1f33d9-d2ac-4492-b2ad-c338fe46ea06",
+                "resourcePath": "objects\\oBigRock\\oBigRock.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "034ecd41-bf6d-46b6-b0c5-e45521493e88",
+            "Value": {
+                "id": "bbfcfe9e-3a99-42a5-9035-9f30fc0b47bd",
+                "resourcePath": "objects\\oSpaceShipLolz\\oSpaceShipLolz.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "0507cdb0-eb42-4402-9539-12381107bb4f",
+            "Value": {
+                "id": "75ca4848-7a48-471d-a8e6-5402663e290b",
+                "resourcePath": "views\\0507cdb0-eb42-4402-9539-12381107bb4f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "05fe28c4-0134-492c-b89b-78d1b02d853f",
             "Value": {
                 "id": "57058018-9d5d-47b8-9d4d-cdb4f67d0c9d",
@@ -42,8 +66,16 @@
             "Key": "0612ef70-7917-484b-a45a-fae543511170",
             "Value": {
                 "id": "bc9a46c8-440a-400c-9723-c4f416742261",
-                "resourcePath": "objects\\oProjectiles\\oProjectiles.yy",
+                "resourcePath": "objects\\oProjectileParent\\oProjectileParent.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "08a179bc-3b53-46bc-8b30-aa7a3981f33d",
+            "Value": {
+                "id": "9a4a662f-cd80-4df5-bac6-18e3f2382574",
+                "resourcePath": "sprites\\sBullet2PH\\sBullet2PH.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -87,6 +119,14 @@
             }
         },
         {
+            "Key": "2028cb9e-0129-48fb-ae25-12866584abe9",
+            "Value": {
+                "id": "8f9cc470-2e99-46b9-9fe8-4b8fcd178118",
+                "resourcePath": "objects\\oBul2\\oBul2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "217d81eb-77c5-4eb2-8d60-a975fa6cc85b",
             "Value": {
                 "id": "9de0617a-e23d-40ee-bd70-da0d248b4c34",
@@ -99,6 +139,22 @@
             "Value": {
                 "id": "9fc5c3d8-76be-46d6-abaa-8927e77ded33",
                 "resourcePath": "sprites\\sBirdPH\\sBirdPH.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "24a06f77-494f-4c47-a327-aa8c154eeeb9",
+            "Value": {
+                "id": "5dccf6b9-50e1-4c45-892f-3a484a4ba9e1",
+                "resourcePath": "sprites\\sBullet1PH\\sBullet1PH.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "26146487-be73-43b2-bea5-e52407cce828",
+            "Value": {
+                "id": "6d8fd4fc-581d-47a8-90dd-0eed52fcd085",
+                "resourcePath": "sprites\\sBullet3PH\\sBullet3PH.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -119,6 +175,14 @@
             }
         },
         {
+            "Key": "30d93cbb-1875-4279-a75e-fe065e8f362a",
+            "Value": {
+                "id": "f5608797-d9d5-42dc-9654-0bd576b9e034",
+                "resourcePath": "sprites\\sRockPH\\sRockPH.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3142293a-bafa-4f77-a153-73822b5a14f5",
             "Value": {
                 "id": "b641fdba-83a1-4a1d-9001-acaff70f6e41",
@@ -131,6 +195,14 @@
             "Value": {
                 "id": "e9f4c8a7-395e-47f9-945a-c6bf1eb0caed",
                 "resourcePath": "sprites\\sRopeShort\\sRopeShort.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "36950c02-9ec4-457b-aab1-0005d680a499",
+            "Value": {
+                "id": "95f6ba13-d409-4f15-8a57-b451f5517582",
+                "resourcePath": "sprites\\sSpaceShipPH\\sSpaceShipPH.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -215,6 +287,22 @@
             }
         },
         {
+            "Key": "5c22e6f6-6d6b-4ce9-a312-f402dc463484",
+            "Value": {
+                "id": "f542d964-2897-49b7-af19-5eec8b1cf59f",
+                "resourcePath": "objects\\oRocksTrap\\oRocksTrap.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "651c50fa-f2c1-43c7-be0e-a529b8c93603",
+            "Value": {
+                "id": "2d85b8bc-5f92-4313-b542-adf29d0f3063",
+                "resourcePath": "objects\\oRock\\oRock.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "66477686-118b-44c6-8de1-69f5154aea30",
             "Value": {
                 "id": "6574115c-f317-4528-a99d-3a6db1b05878",
@@ -231,6 +319,14 @@
             }
         },
         {
+            "Key": "674eca25-e9ee-4959-9fbf-1dff9c877e9a",
+            "Value": {
+                "id": "5a545e84-7b6b-41a9-9864-7479c9091342",
+                "resourcePath": "objects\\oBul3\\oBul3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6de851bd-937a-4f8b-be6e-80c16159d680",
             "Value": {
                 "id": "ade11518-03a9-4b7f-a3c9-b057a4d2a247",
@@ -243,6 +339,22 @@
             "Value": {
                 "id": "bdd39373-acb4-450a-9479-e3039321d93c",
                 "resourcePath": "views\\78196b29-debb-4e6b-887b-351c78472715.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "844eae4b-8047-4309-b53e-8264729d8c54",
+            "Value": {
+                "id": "93b0e59d-dfe0-4442-b086-8a66d0ca668f",
+                "resourcePath": "sprites\\sFallingRocksPH\\sFallingRocksPH.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8530f7ad-d2a8-4773-abef-eae238723ccc",
+            "Value": {
+                "id": "5e108c19-b822-4570-a0c2-3b8606ec7eae",
+                "resourcePath": "views\\8530f7ad-d2a8-4773-abef-eae238723ccc.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -271,14 +383,6 @@
             }
         },
         {
-            "Key": "903ec7bf-246b-45ad-9d4a-938de0197219",
-            "Value": {
-                "id": "1985c9c8-b7d0-4f4d-af96-a3b8fe962702",
-                "resourcePath": "objects\\oPlane\\oPlane.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "918c0c51-9873-4d32-a678-706f08063bbf",
             "Value": {
                 "id": "51fa2365-e256-4359-8b32-34c77e593c74",
@@ -300,6 +404,14 @@
                 "id": "85c6c677-8e58-421f-a373-0717255ab61c",
                 "resourcePath": "views\\9aa64fe1-107b-40bb-b19d-2b57b39b3f05.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a3c90576-2ea1-4901-8e60-07308d215f3e",
+            "Value": {
+                "id": "83b86ce8-4e35-447a-a9b9-f0d578f729e1",
+                "resourcePath": "objects\\oBul1\\oBul1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -343,6 +455,14 @@
             }
         },
         {
+            "Key": "beb83099-c36e-4e0a-a9c9-6cc0cb179a57",
+            "Value": {
+                "id": "a2b00ba2-283e-44a2-8a07-4fdc5a33a344",
+                "resourcePath": "sprites\\sBigRockPH\\sBigRockPH.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c176ce45-4bf9-43e7-a33a-d2a060c2e0ed",
             "Value": {
                 "id": "0076a132-b78f-4440-9557-88bc0cd661fc",
@@ -380,6 +500,14 @@
                 "id": "a9cce078-a2c7-4356-800f-ce22274290e4",
                 "resourcePath": "sprites\\sRopeLong\\sRopeLong.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "eef04ff9-c088-40ef-93e6-faa9b5cd8b13",
+            "Value": {
+                "id": "6e05e83b-b5ea-4eac-b717-b8b742a72b48",
+                "resourcePath": "objects\\oBulletParent\\oBulletParent.yy",
+                "resourceType": "GMObject"
             }
         },
         {

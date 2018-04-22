@@ -1,8 +1,8 @@
 {
-    "id": "903ec7bf-246b-45ad-9d4a-938de0197219",
+    "id": "674eca25-e9ee-4959-9fbf-1dff9c877e9a",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oPlane",
+    "name": "oBul3",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "26146487-be73-43b2-bea5-e52407cce828",
     "visible": true
 }

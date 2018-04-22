@@ -11,3 +11,8 @@ if(keyboard_check_pressed(ord("R"))){
 if(keyboard_check_pressed(vk_escape)){
 	game_end();	
 }
+
+
+if(oPlayer.heightMeter>=70 && !instance_exists(oSpaceShipLolz)){	//make 200 later
+	instance_create_depth(oPlayer.x+450,oPlayer.y+400,-500,oSpaceShipLolz);
+}

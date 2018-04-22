@@ -2,7 +2,7 @@
 // You can write your code in this editor
 distanceToPlr = distance_to_object(oPlayer);
 
-if(distanceToPlr <= 600){
+if(distanceToPlr <= 700){
 	spd = 3;
 	if(oPlayer.x < x){
 		if(!inMotion){

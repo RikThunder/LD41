@@ -16,21 +16,9 @@ if(idle){
 	sprite_index = sPlayerClimb;
 }
 else if (jumpL){
-	//image_xscale = -1;
-	//image_speed = 1;
-	//instance_change(oPlayerJumping,false);
-	//sprite_index = sPlayerJump1;
 	draw_self();
-//	draw_sprite(sprite_index,image_index,x,y);
-	
-		
-	//draw jump left animation	
 }
 else if(jumpR){
-	//image_xscale = 1;
-	//image_speed = 1;
-	//sprite_index = sPlayerJump;
-
 	draw_self();
 }
 	
@@ -42,6 +30,18 @@ if(canJL){
 if(canJR){
 	draw_text(x+30,y-40,"right+");
 }
+
+if(instance_exists(oSpaceShipLolz)){
+	bossWarnTimer+=1;
+	if(bossWarnTimer <=60){
+		draw_text_transformed(x-100,y-100,"DANGER!!! CLIMB!!!!!",5,5,0);
+	}
+	if(bossWarnTimer >= 5000){
+		bossWarnTimer=0;	
+	}
+	draw_text(x,y-100,distance_to_object(oSpaceShipLolz));
+}
+
 
 
 //viewX = view_get_xport(0);

@@ -1,8 +1,8 @@
 {
-    "id": "0612ef70-7917-484b-a45a-fae543511170",
+    "id": "a3c90576-2ea1-4901-8e60-07308d215f3e",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oProjectiles",
+    "name": "oBul1",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "24a06f77-494f-4c47-a327-aa8c154eeeb9",
     "visible": true
 }

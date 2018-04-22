@@ -8,9 +8,9 @@ if(distance_to_object(instance_nearest(x,y,oRope))<10){
 	x = instance_nearest(x,y,oRope).x;	
 }
 
-if(!place_meeting(x,y,oRope)&&distance_to_object(instance_nearest(x,y,oRope)>5)){
-	y+=12;	//make it 10
-	heightMeter -=0.32;	
+if(!place_meeting(x,y-25,oRope) && distance_to_object(instance_nearest(x,y,oRope)>15)){
+	y+=9;	//make it 10
+	heightMeter -=0.24;	
 	if(keyboard_check(ord("A")) || keyboard_check(vk_left)){
 		idle = true; //FALLIGN ANIMATION NEEDED
 		x-=2;
@@ -23,13 +23,19 @@ if(!place_meeting(x,y,oRope)&&distance_to_object(instance_nearest(x,y,oRope)>5))
 
 if(hit){
 	fallTimer +=1;
-	y+=12;
+	y+=9;
+	heightMeter -=0.24;	
 	if(fallTimer >=30){
 		hit = false;	
 		fallTimer=0;
 	}
 }
 
+if(keyboard_check_pressed(ord("W"))|| keyboard_check_pressed(vk_up)|| keyboard_check_pressed(ord("S")) || keyboard_check_pressed(vk_down)){
+	if(distance_to_object(instance_nearest(x,y,oRope))<=10){
+		x = instance_nearest(x,y,oRope).x;	
+	}
+}
 
 if((keyboard_check(ord("W")) || keyboard_check(vk_up))&& !hit){
 	idle = false;
@@ -41,26 +47,40 @@ if((keyboard_check(ord("W")) || keyboard_check(vk_up))&& !hit){
 		y-=0;
 		heightMeter+=0;
 	}
+	//if rik does't like being able to jump while climbing, remove this
+	if(keyboard_check_released(ord("D")) || keyboard_check_released(vk_right)&&!hit){
+		if(canJR){
+			jumpR = true;
+		}
+	}else if(keyboard_check_released(ord("A")) || keyboard_check_released(vk_left)&&!hit){ 
+		if(canJL){
+			jumpL = true;
+		}	
+	}
+	//end remove
 }else if(keyboard_check(ord("S")) || keyboard_check(vk_down)&& !hit){
 	sliding = true;
 	idle = false;
 	y+=6;
 	heightMeter -=.08;
-
-}else if(keyboard_check_released(ord("D")) || keyboard_check_released(vk_right)&&!hit){
-	//if(distToNearestR <=40){
-		//x = instance_nearest(x+60,y,oRope).x;
+	//if rik does't like being able to jump while climbing, remove this
+	if(keyboard_check_released(ord("D")) || keyboard_check_released(vk_right)&&!hit){
 		if(canJR){
 			jumpR = true;
 		}
-	//}
-}else if(keyboard_check_released(ord("A")) || keyboard_check_released(vk_left)&&!hit){ 
-	//if(distToNearestL <=40){
-		//x = instance_nearest(x-60,y,oRope).x;
+	}else if(keyboard_check_released(ord("A")) || keyboard_check_released(vk_left)&&!hit){ 
 		if(canJL){
 			jumpL = true;
 		}	
-	//}
+	}//end remove
+}else if(keyboard_check_released(ord("D")) || keyboard_check_released(vk_right)&&!hit){
+	if(canJR){
+		jumpR = true;
+	}
+}else if(keyboard_check_released(ord("A")) || keyboard_check_released(vk_left)&&!hit){ 
+	if(canJL){
+		jumpL = true;
+	}	
 }else{
 	idle = true;	
 }
@@ -101,6 +121,7 @@ if(jumpR){
 		jumpR = false;
 		timer = 0;
 		x = rightCol;
+		
 	}
 }	
 
