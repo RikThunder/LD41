@@ -311,6 +311,14 @@
             }
         },
         {
+            "Key": "4d642c73-b026-4860-9b69-553957bb2ac1",
+            "Value": {
+                "id": "3d7a7283-127f-49ce-846c-c8e9aecef975",
+                "resourcePath": "sprites\\sCococopter1\\sCococopter1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4e2d6174-c8a4-4e49-b88d-b1e431728743",
             "Value": {
                 "id": "deb74298-9310-496f-8e47-f96e0a9e89d4",
