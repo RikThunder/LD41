@@ -5,3 +5,4 @@ if(!audio_is_playing(aMonkeyCaves)){
 	audio_play_sound(aMonkeyCaves,100,true);
 }
 height = 0;
+bossExisted = false;

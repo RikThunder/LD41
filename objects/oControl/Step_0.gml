@@ -18,6 +18,7 @@ if(keyboard_check_pressed(vk_f12)){
 }
 
 
-if(oPlayer.heightMeter>=70 && !instance_exists(oSpaceShipDanmaku)){	//make 200 later
-	instance_create_depth(oPlayer.x+450,oPlayer.y+400,-500,oSpaceShipDanmaku);
+if(oPlayer.heightMeter>=320 && !instance_exists(oSpaceShipDanmaku) && !bossExisted){	//make 200 later
+	instance_create_depth(oPlayer.x+350,oPlayer.y+300,-500,oSpaceShipDanmaku);
+	bossExisted = true;
 }

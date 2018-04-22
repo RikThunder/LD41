@@ -1,9 +1,20 @@
 /// @description Insert description here
 // You can write your code in this editor
 draw_set_color(c_black);
+/*
+then I need you to make the game to draw the following text:
 
-draw_text(x+300,y+50,"Thank you for playing Kinbaku");
-draw_text(x+300,y+100,"Art & Game Idea: Dmitrij Jazunov (a.k.a. Rik)");
+"And thus John Treavor successfully made it out of the temple caves. 
+But was his price worth it?"
+
+Programming: (your name)
+Art: (my name)
+Music: Wolframtones
+FSX: sfxr
+*/
+draw_text(x+300,y+50,"And thus John Treavor successfully made it out of the temple caves.");
+//draw_text(x+300,y+100,"Art & Game Idea: Dmitrij Jazunov (a.k.a. Rik)");
+draw_text(x+300,y+100,"But, was the price worth it?");
 draw_text(x+300,y+150,"Programming: Vasiliy Ulin (a.k.a. Vik / micro)");
 draw_text(x+300,y+200,"TOOLS AND SOFTWARE USED:");
 draw_text(x+300,y+250,"SFXR, Wolfram Tones, Photoshop, Game Maker Studio 2");
