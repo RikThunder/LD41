@@ -367,6 +367,14 @@
             }
         },
         {
+            "Key": "5e3415cd-9580-460a-bd8a-ede1ac737374",
+            "Value": {
+                "id": "0c4648f0-849a-4a2d-87f8-310bde22d91f",
+                "resourcePath": "sprites\\sLedge\\sLedge.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "651c50fa-f2c1-43c7-be0e-a529b8c93603",
             "Value": {
                 "id": "2d85b8bc-5f92-4313-b542-adf29d0f3063",
