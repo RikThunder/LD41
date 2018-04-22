@@ -23,3 +23,5 @@ fallTimer = 0;
 hit = false;
 
 bossWarnTimer = 0;
+
+jumped = false;

@@ -13,6 +13,6 @@ if(keyboard_check_pressed(vk_escape)){
 }
 
 
-if(oPlayer.heightMeter>=70 && !instance_exists(oSpaceShipLolz)){	//make 200 later
-	instance_create_depth(oPlayer.x+450,oPlayer.y+400,-500,oSpaceShipLolz);
+if(oPlayer.heightMeter>=70 && !instance_exists(oSpaceShipDanmaku)){	//make 200 later
+	instance_create_depth(oPlayer.x+450,oPlayer.y+400,-500,oSpaceShipDanmaku);
 }

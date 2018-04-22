@@ -3,7 +3,10 @@
 
 //distToNearestR = distance_to_object(instance_nearest(x+20,y,oRope));
 //distToNearestL = distance_to_object(instance_nearest(x-20,y,oRope));
-
+if(jumped){
+	x = instance_nearest(x,y,oRope).x;	
+	jumped=false;
+}
 
 if(position_meeting(leftCol,y,oRope)||position_meeting(leftCol-1,y,oRope)||
 	position_meeting(leftCol+1,y,oRope)||position_meeting(leftCol-2,y,oRope)||
@@ -34,3 +37,4 @@ if(position_meeting(rightCol,y,oRope)||position_meeting(rightCol-1,y,oRope)||
 }else{
 	canJR = false;	
 }
+

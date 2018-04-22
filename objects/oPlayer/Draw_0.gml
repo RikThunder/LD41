@@ -24,14 +24,8 @@ else if(jumpR){
 	
 
 //chaneg this to draw at camera x and y not player
-if(canJL){
-	draw_text(x-60,y-40,"left+");
-}
-if(canJR){
-	draw_text(x+30,y-40,"right+");
-}
 
-if(instance_exists(oSpaceShipLolz)){
+if(instance_exists(oSpaceShipDanmaku)){
 	bossWarnTimer+=1;
 	if(bossWarnTimer <=60){
 		draw_text_transformed(x-100,y-100,"DANGER!!! CLIMB!!!!!",5,5,0);
@@ -39,7 +33,7 @@ if(instance_exists(oSpaceShipLolz)){
 	if(bossWarnTimer >= 5000){
 		bossWarnTimer=0;	
 	}
-	draw_text(x,y-100,distance_to_object(oSpaceShipLolz));
+	//draw_text(x,y-100,distance_to_object(oSpaceShipDanmaku));
 }
 
 
@@ -59,11 +53,19 @@ if(instance_exists(oSpaceShipLolz)){
 draw_text(x,y-380, "Height: ");
 draw_text(x+100,y-380, heightMeter);
 
-draw_set_color(c_green);
-draw_circle(x-32,y,2,false);
 
-draw_set_color(c_red)
-draw_circle(x+32,y,2,false);
+//comment this out later
+//draw_set_color(c_green);
+//draw_circle(x-32,y,2,false);
+
+//draw_set_color(c_red)
+//draw_circle(x+32,y,2,false);
+//if(canJL){
+//	draw_text(x-60,y-40,"left+");
+//}
+//if(canJR){
+//	draw_text(x+30,y-40,"right+");
+//}
 
 
 //score (amount of items collected)

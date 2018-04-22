@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-leftCol = x-31;
+leftCol = x-32;
 rightCol = x+32;
 //leftCol = x-62;
 //rightCol = x+64;
@@ -102,6 +102,7 @@ if (jumpL){
 		jumpL= false;
 		timer = 0;
 		x = leftCol;
+		jumped=true;
 	}
 }
 
@@ -121,7 +122,7 @@ if(jumpR){
 		jumpR = false;
 		timer = 0;
 		x = rightCol;
-		
+		jumped=true;
 	}
 }	
 
