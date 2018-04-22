@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "28f0f699-12e4-44f5-962a-539ececaa296",
+            "Value": {
+                "id": "789eb82a-7317-4faa-bffb-cecd6c8087cc",
+                "resourcePath": "sprites\\sFinish\\sFinish.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2a0a7fdc-7c8f-42de-a19b-ba557acb13da",
             "Value": {
                 "id": "f023bdbd-75eb-4afd-a1a0-a835f4d7c128",
