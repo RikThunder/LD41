@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "368acd1f-89f5-4142-afac-4996b2ed0134",
+            "Value": {
+                "id": "29bb677f-3db0-4f9a-9856-0f65bb817abe",
+                "resourcePath": "sprites\\sCocogun\\sCocogun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "36950c02-9ec4-457b-aab1-0005d680a499",
             "Value": {
                 "id": "95f6ba13-d409-4f15-8a57-b451f5517582",
