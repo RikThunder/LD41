@@ -3,3 +3,4 @@
 //window_set_size(768, 1366);
 
 audio_play_sound(aMonkeyCaves,100,true);
+height = oPlayer.heightMeter;
