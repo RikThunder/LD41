@@ -3,7 +3,7 @@
 distanceToPlr = distance_to_object(oPlayer);
 
 if(distanceToPlr <= 750){
-	spd = 3;
+	spd = 2;
 	if(oPlayer.x < x){
 		if(!inMotion){
 			spd +=1;
@@ -19,9 +19,6 @@ if(distanceToPlr <= 750){
 			image_xscale=-1;
 		}
 	}
-}else{
-	moveU = true;
-	moveD = false;
 }
 
 
