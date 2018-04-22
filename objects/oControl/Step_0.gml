@@ -3,6 +3,7 @@
 
 //counter of the objects
 
+height = oPlayer.heightMeter;
 
 
 if(keyboard_check_pressed(ord("R"))){
@@ -10,6 +11,10 @@ if(keyboard_check_pressed(ord("R"))){
 }
 if(keyboard_check_pressed(vk_escape)){
 	game_end();	
+}
+//TEMPORARY
+if(keyboard_check_pressed(vk_f12)){
+	room_goto(rCredits);	
 }
 
 
