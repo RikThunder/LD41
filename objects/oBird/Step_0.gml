@@ -2,7 +2,7 @@
 // You can write your code in this editor
 distanceToPlr = distance_to_object(oPlayer);
 
-if(distanceToPlr <= 700){
+if(distanceToPlr <= 750){
 	spd = 3;
 	if(oPlayer.x < x){
 		if(!inMotion){
@@ -19,7 +19,12 @@ if(distanceToPlr <= 700){
 			image_xscale=-1;
 		}
 	}
+}else{
+	moveU = true;
+	moveD = false;
 }
+
+
 if(place_meeting(x,y,oPlayer)){
 	oPlayer.hit = true;
 	//stance_destroy();

@@ -3,3 +3,6 @@
 spd = 0;
 inMotion = false;
 
+moveU = true;
+moveD = false;
+moveTime = 0;
