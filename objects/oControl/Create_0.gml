@@ -6,3 +6,4 @@ if(!audio_is_playing(aMonkeyCaves)){
 }
 height = 0;
 bossExisted = false;
+reachedExit = false;

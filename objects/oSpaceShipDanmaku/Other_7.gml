@@ -3,6 +3,6 @@
 if(attack){
 	with instance_create_depth(oSpaceShipDanmaku.x-40,oSpaceShipDanmaku.y+60,0,oMonkeyPoop){
 		throwDir = point_direction(x,y,oPlayer.x,oPlayer.y-150)
-		motion_set(throwDir,7);
+		motion_set(throwDir,6);
 	}	
 }

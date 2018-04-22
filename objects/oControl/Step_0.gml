@@ -18,7 +18,14 @@ if(keyboard_check_pressed(vk_f12)){
 }
 
 
-if(oPlayer.heightMeter>=320 && !instance_exists(oSpaceShipDanmaku) && !bossExisted){	//make 200 later
-	instance_create_depth(oPlayer.x+350,oPlayer.y+300,-500,oSpaceShipDanmaku);
+if(oPlayer.heightMeter>=110 && !instance_exists(oSpaceShipDanmaku) && !bossExisted && !reachedExit){	//make 200 later
+	instance_create_depth(oPlayer.x+550,oPlayer.y-450,-500,oSpaceShipDanmaku);
 	bossExisted = true;
+}
+if(reachedExit){
+	instance_destroy(oSpaceShipDanmaku);
+}
+
+if(!instance_exists(oSpaceShipDanmaku)){
+	audio_stop_sound(aPropeller);
 }

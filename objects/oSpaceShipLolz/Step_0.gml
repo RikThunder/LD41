@@ -6,11 +6,8 @@
 
 distOnX = abs(x-oPlayer.x);
 
-show_debug_message("xdist");
-show_debug_message(distOnX);
+
 distOnY = abs(y-oPlayer.y);
-show_debug_message("ydist");
-show_debug_message(distOnY);
 
 if(distance_to_object(oPlayer)<=400){
 	attack = true;			

@@ -27,8 +27,8 @@ else if(jumpR){
 
 if(instance_exists(oSpaceShipDanmaku)){
 	bossWarnTimer+=1;
-	if(bossWarnTimer <=60){
-		draw_text_transformed(x-100,y-100,"DANGER!!! CLIMB!!!!!",5,5,0);
+	if(bossWarnTimer <=80){
+		draw_text_transformed(x-200,y-100,"DANGER!!! CLIMB!!!!!",5,5,0);
 	}
 	if(bossWarnTimer >= 5000){
 		bossWarnTimer=0;	

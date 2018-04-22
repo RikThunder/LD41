@@ -415,6 +415,14 @@
             }
         },
         {
+            "Key": "6063922c-33b7-40af-bdc4-01899c6170f7",
+            "Value": {
+                "id": "a194028b-045e-46ed-8783-da0a8a249803",
+                "resourcePath": "objects\\oFINISH\\oFINISH.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "651c50fa-f2c1-43c7-be0e-a529b8c93603",
             "Value": {
                 "id": "2d85b8bc-5f92-4313-b542-adf29d0f3063",

@@ -128,3 +128,19 @@ if(jumpR){
 }	
 
 
+if(oControl.reachedExit){
+	show_debug_message("reached the end");
+	winTimer +=1;
+	if(winTimer<60){
+		sprite_index = sPlayerFront;
+	}
+	if(winTimer>60 &&  winTimer <150){
+		sprite_index = sPlayerSearch;
+	}
+	if(winTimer>150 && winTimer<250){
+		sprite_index = sPlayerWin;	
+	}
+	if(winTimer>=250){
+		room_goto_next();	
+	}
+}
