@@ -23,6 +23,7 @@ if(distanceToPlr <= 750){
 
 
 if(place_meeting(x,y,oPlayer)){
+//if(position_meeting(x,y+5,oPlayer)){
 	oPlayer.hit = true;
 	//stance_destroy();
 }

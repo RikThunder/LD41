@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "2ee823ee-722d-4b95-ae60-6e390a558abd",
+            "Value": {
+                "id": "d09f5308-2a41-4c9b-b49c-a2690fef31f1",
+                "resourcePath": "objects\\oSpaceShipPropeller\\oSpaceShipPropeller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "30d93cbb-1875-4279-a75e-fe065e8f362a",
             "Value": {
                 "id": "f5608797-d9d5-42dc-9654-0bd576b9e034",
@@ -303,6 +311,14 @@
             }
         },
         {
+            "Key": "4ebde788-fc7b-49e3-b67d-69bfae460dbb",
+            "Value": {
+                "id": "17c85704-6347-4bcd-aafc-f8baf7c352cb",
+                "resourcePath": "objects\\oSpaceShipTurret\\oSpaceShipTurret.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5521c421-ddbb-40f7-9e9a-5537568b1ed9",
             "Value": {
                 "id": "a8d0e509-fc3a-4692-836f-f9f172eba21e",
@@ -364,6 +380,14 @@
                 "id": "ade11518-03a9-4b7f-a3c9-b057a4d2a247",
                 "resourcePath": "objects\\oRope\\oRope.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "726ed1df-62cb-4f4a-a9f9-20333695de1a",
+            "Value": {
+                "id": "fbb7cc67-661a-471a-9f41-10d0bef5f80e",
+                "resourcePath": "views\\726ed1df-62cb-4f4a-a9f9-20333695de1a.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
