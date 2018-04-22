@@ -559,6 +559,14 @@
             }
         },
         {
+            "Key": "ceb5bf2a-598b-4ab6-b44a-3fcfe7a8930f",
+            "Value": {
+                "id": "dbc9dcd5-e0df-464f-905d-ccc9dd57d7f6",
+                "resourcePath": "sprites\\sCococopter\\sCococopter.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d4648785-5e3e-4dfb-8a7f-00141d1fb3d1",
             "Value": {
                 "id": "df77fada-d640-4e59-bcd1-ac798dfa173c",
@@ -588,6 +596,14 @@
                 "id": "6e05e83b-b5ea-4eac-b717-b8b742a72b48",
                 "resourcePath": "objects\\oBulletParent\\oBulletParent.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f2edfeb9-e6f0-4e11-9c81-5923d95a6c76",
+            "Value": {
+                "id": "c68e7692-8476-4abd-8b9b-70a68699d7b4",
+                "resourcePath": "sprites\\sCococopterIdle\\sCococopterIdle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
