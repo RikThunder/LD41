@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "17e787c2-287d-430a-a02b-9ff55c702076",
+            "Value": {
+                "id": "1090afa4-33ce-44d1-9434-c761541250cb",
+                "resourcePath": "objects\\oLedge\\oLedge.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1976d2e8-791e-4e97-8b7e-71246a0388c6",
             "Value": {
                 "id": "095437bc-743f-462b-8806-20a7e94b458b",
@@ -315,6 +323,14 @@
             "Value": {
                 "id": "b003b632-2507-4c61-8b47-af77edf9f6a1",
                 "resourcePath": "sprites\\sPlayerSlide\\sPlayerSlide.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "46efadb0-ff06-4596-9756-3f024b14cc31",
+            "Value": {
+                "id": "0d23a678-5704-4a40-8035-35ff96725bb6",
+                "resourcePath": "sprites\\sLedge11\\sLedge11.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -543,6 +559,14 @@
             }
         },
         {
+            "Key": "8f2f058e-2202-4fb6-a830-fe6bd004c3e3",
+            "Value": {
+                "id": "df1f6127-e7c7-4ef1-9277-d643109366e8",
+                "resourcePath": "sprites\\sLedge12\\sLedge12.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8f50d37d-b8ab-4a90-bc42-d70f05004e40",
             "Value": {
                 "id": "df0c0902-11f1-4e4c-a79d-47f192d008f3",
@@ -735,6 +759,14 @@
             }
         },
         {
+            "Key": "d291a08f-b99b-400f-a3af-30e5fab2e558",
+            "Value": {
+                "id": "c00e705e-7e34-4fee-8968-46624881b51d",
+                "resourcePath": "objects\\oRopeEndSmaller\\oRopeEndSmaller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d4648785-5e3e-4dfb-8a7f-00141d1fb3d1",
             "Value": {
                 "id": "df77fada-d640-4e59-bcd1-ac798dfa173c",
@@ -780,6 +812,14 @@
                 "id": "ad65800a-5062-41ed-9571-5a645b67553e",
                 "resourcePath": "rooms\\level1\\level1.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "df97e3ae-17f2-46a7-a1e0-4bcfd8d0adf6",
+            "Value": {
+                "id": "045c11a4-6519-44b0-8ffc-9b91d75684a0",
+                "resourcePath": "sprites\\sLedge1\\sLedge1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
